@@ -10,6 +10,7 @@ import { Ejemplo1Component } from './Componentes/ejemplo1/ejemplo1.component';
 import { Ejemplo2Component } from './Componentes/ejemplo2/ejemplo2.component';
 import { Ejemplo3Component } from './Componentes/ejemplo3/ejemplo3.component';
 import { LoginComponent } from './Componentes/login/login.component';
+import { Ejemplo4Component } from './componentes/ejemplo4/ejemplo4.component';
 
 const appRoutes: Routes = [
   { path: 'header', component: HeaderComponent },
@@ -19,6 +20,7 @@ const appRoutes: Routes = [
   { path: 'ejemplo1', component: Ejemplo1Component },
   { path: 'ejemplo2', component: Ejemplo2Component },
   { path: 'ejemplo3', component: Ejemplo3Component },
+  { path: 'ejemplo4', component: Ejemplo4Component },
   { path: '', redirectTo: '/body', pathMatch: 'full' },
   { path: '**', component: BodyComponent }
 ];
@@ -33,7 +35,8 @@ const appRoutes: Routes = [
     Ejemplo1Component,
     Ejemplo2Component,
     Ejemplo3Component,
-    LoginComponent
+    LoginComponent,
+    Ejemplo4Component
   ],
   imports: [
     BrowserModule,

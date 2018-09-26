@@ -12,7 +12,7 @@ export class Ejemplo3Component implements OnInit {
 	Equipos:{
 		Pais: string;
 		NombreEquipo: string;
-		ValorContraro: number;
+		ValorContrato: number;
 	}
 	Cualidades: string[];
 
@@ -21,7 +21,7 @@ export class Ejemplo3Component implements OnInit {
 		this.Equipos = {
 			Pais: 'Brasil',
 			NombreEquipo: 'Gremio',
-			ValorContraro: 35000
+			ValorContrato: 35000
 		};
 		this.Cualidades = ['Magia', 'Regate', 'Sonrisa Eterna'];
 	}
